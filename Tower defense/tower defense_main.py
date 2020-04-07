@@ -89,9 +89,6 @@ while True:
 
     Enemy.draw_Enemy(enemy,game_screen.screen)
 
+  pygame.display.flip()
 
-
-
-
-
-    pygame.display.flip()
+#test
