@@ -10,8 +10,7 @@ class Enemy():
         pygame.draw.rect(screen,YELLOW,self.rect)
 
     def move_Enemy(self,x,y):
-        if self.rect.right!=x:
+        if self.rect.left!=x:
             self.rect.centerx+=self.speed
-        if self.rect.bottom!=y:
+        if self.rect.top!=y:
             self.rect.centery+=self.speed
-        return True
